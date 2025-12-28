@@ -20,7 +20,7 @@ public class WelcomeRestController {
 		logger.info("***** welcomeMsg() execution start *****");
 		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
 		logger.info("***** welcomeMsg() execution end *****");
-		String s = "hello";
+		String s = "hello my name is santosh";
 		logger.info("******************************************************************");
 		return msg;
 	}
@@ -31,7 +31,7 @@ public class WelcomeRestController {
 		String msg = "Good Morning, Welcome to Ashok IT";
 		System.out.println("testing git collaboration");
 		logger.info("***** greetMsg() execution end *****");
-		int i = 10;
+		int i = 40;
 		logger.info("***** greetMsg() execution successfull *****");
 		boolean status = false;
 		logger.info("***** ***************************** *****");
