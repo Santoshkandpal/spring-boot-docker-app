@@ -42,6 +42,10 @@ public class WelcomeRestController {
 		logger.info("***** ***************************** *****");
 		return msg;
 	}
+
+	public String name(){
+		System.out.println("My name is santosh");
+	}
 	
 	
 }
