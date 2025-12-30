@@ -24,6 +24,11 @@ public class WelcomeRestController {
 		logger.info("******************************************************************");
 		return msg;
 	}
+
+	public int(int a){
+		a =5;
+		System.out.println(a);
+	}
 	
 	@GetMapping("/greet")
 	public String greetMsg() {
